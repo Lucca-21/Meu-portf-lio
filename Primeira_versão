@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUCCA's Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+
+        </div>
+    </header>
+
+    <div>
+        <h1>Meus Projetos</h1>
+    </div>
+
+    <div>
+        <h2>1º projeto</h2>
+
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni nam, id voluptatibus, temporibus vel numquam fuga, esse sit voluptas laboriosam quos aut fugiat distinctio non <b>saepe eveniet similique rerum.</b> Ducimus.
+
+        <br/>
+        <br/>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQpKY8iSPQqkg0JcrOcqec73QIT9smRI7Bw&usqp=CAU" alt="Obama e Messi pobres vivendo de aluguel">
+
+        <a href="">Ir para o projeto</a>
+    </div>
+
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
