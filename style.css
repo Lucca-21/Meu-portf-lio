@@ -1,0 +1,41 @@
+body {
+    background-color: #0C2747;
+    color: #ffffff;
+    ;
+}
+/* Header */
+
+header {
+    display: flex;
+}
+
+#home_icon {
+    width: 200px;
+}
+
+.Navigation {
+    display: flex;
+}
+
+/* End Header */
+
+/* Main */
+
+#First_Project_image {
+    width: 400px;
+}
+
+/* End Main */
+
+/* Footer */
+
+.footer_text {
+    color: #2576DA;
+    ;
+}
+
+.Form_footer {
+    display: flex;
+}
+
+/* End Footer */
