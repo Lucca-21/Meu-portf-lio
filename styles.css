@@ -1,8 +1,17 @@
 body {
-    background-color: #0C2747;
-    color: #ffffff;
+    background-color: #1f1f1f;
+    color: #909090;
     ;
+    font-family: "Poppins", sans-serif;
 }
+
+.icons{
+    color: #909090;
+    display: inline;
+    font-size: x-large;
+    margin-right: 3.2px;
+}
+
 /* Header */
 
 header {
@@ -14,7 +23,10 @@ header {
 }
 
 .Navigation {
-    display: flex;
+    display: inline;
+    color: #909090;
+    margin-left: 3.2px;
+    margin-right: 3.2px;
 }
 
 /* End Header */
@@ -25,17 +37,50 @@ header {
     width: 400px;
 }
 
+#My_projects{
+    color: white;
+}
+
+#Firt_project {
+    color: white;
+}
+
+span {
+    color: white;
+    font-weight: 600;
+}
+
 /* End Main */
 
 /* Footer */
 
-.footer_text {
-    color: #2576DA;
-    ;
-}
-
 .Form_footer {
     display: flex;
+}
+
+.form_input {
+    display: block;
+    margin-right: 50px;
+
+}
+
+.form_text {
+    display: block;
+}
+
+.form_label {
+    font-size: small;
+}
+
+legend {
+    color: white;
+    font-size: xx-large;
+}
+
+.footer_icons {
+    display: inline;
+    height: 65px;
+    width: 512px;
 }
 
 /* End Footer */
