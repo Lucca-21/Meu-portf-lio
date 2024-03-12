@@ -1,8 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #1f1f1f;
     color: #909090;
-    ;
     font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .icons{
@@ -54,14 +62,17 @@ span {
 
 /* Footer */
 
+fieldset {
+    width: 600px;
+}
+
 .Form_footer {
     display: flex;
 }
 
 .form_input {
     display: block;
-    margin-right: 50px;
-
+    min-width: 600px;
 }
 
 .form_text {
@@ -69,7 +80,39 @@ span {
 }
 
 .form_label {
+    display: block;
     font-size: small;
+}
+
+.name_email_input div {
+    display: inline-block;
+}
+
+.name_input {
+    background-color: red;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.name_input > input {
+    width: 100%;
+}
+
+.email_input {
+    background-color: blue;
+    box-sizing: border-box;
+    width: 49%;
+}
+.email_input > input {
+    width: 100%;
+}
+
+.message_input {
+    background-color: yellow;
+    width: 100%;
+}
+.message_input > input {
+    width: 100%;
 }
 
 legend {
