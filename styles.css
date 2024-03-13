@@ -62,62 +62,70 @@ span {
 
 /* Footer */
 
-fieldset {
-    width: 600px;
-}
-
 .Form_footer {
     display: flex;
 }
 
-.form_input {
-    display: block;
-    min-width: 600px;
-}
-
-.form_text {
-    display: block;
-}
-
-.form_label {
-    display: block;
-    font-size: small;
-}
-
-.name_email_input div {
-    display: inline-block;
-}
-
-.name_input {
-    background-color: red;
-    box-sizing: border-box;
-    width: 50%;
-}
-
-.name_input > input {
-    width: 100%;
-}
-
-.email_input {
-    background-color: blue;
-    box-sizing: border-box;
-    width: 49%;
-}
-.email_input > input {
-    width: 100%;
-}
-
-.message_input {
-    background-color: yellow;
-    width: 100%;
-}
-.message_input > input {
-    width: 100%;
+fieldset {
+    width: 600px;
+    border: none;
 }
 
 legend {
     color: white;
     font-size: xx-large;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.name_email_message > label {
+    display: block;
+}
+
+.name_email {
+    display: inline-block;
+}
+
+.name_email_input {
+    width: 100%;
+}
+
+.name_input {
+    width: 49%;
+}
+.name_input > input{
+    width: 99%;
+    background: transparent;
+}
+
+.email_input {
+    width: 49%;
+}
+.email_input > input{
+    width: 99%;
+}
+
+.message_input {
+    width: 100%;
+}
+
+.message_input > input{
+    width: 99%;
+    
+}
+
+#Button {
+    width: 100%;
+    background-color: #909090;
+    border: none;
+}
+
+.form_text {
+    margin:15px 0px 0px 10px ;
 }
 
 .footer_icons {
