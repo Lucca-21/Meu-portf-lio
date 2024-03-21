@@ -46,8 +46,8 @@ h2 {
 
 /* ANIMATIONS ------------------------------------------------------ */
 
-#email:hover  {
-    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+.troll_face {
+    animation: girar 2s linear infinite;
 }
 #linkedin:hover  {
     animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
@@ -95,19 +95,19 @@ header {
     display: inline;
     margin: 0px 10px 0px 10px;
     font-size: 1.2rem;
-} 
-
-
+}
 
 /* End Header -------------------------------------------------------*/
 
 /* Main --------------------------------------------------------------*/
 
+/*  ---------------------- About ------------------------------ */
+
 .about_container {
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     margin: 150px 100px 50px 100px;
+    height: 70vh;
 }
 
 .main_title > h1 {
@@ -115,8 +115,16 @@ header {
     width: 50vw;
 }
 
+/* ------------------- Experience --------------------- */
+
 .experience_container {
     margin: 50px 100px 50px 100px;
+}
+
+.empresas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .empresa_1_container {
@@ -137,8 +145,10 @@ header {
     list-style: "> ";
 }
 
+/* --------------------- Development ---------------------- */
+
 .development_container {
-    margin: 50px 100px 50px 100px;
+    margin: 150px 100px 150px 100px;
 }
 
 .development_things {
@@ -162,6 +172,85 @@ header {
 
 .development_image {
     width: 400px;
+}
+
+.project_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project_1 {
+    max-width: 400px;
+}
+.project_2 {
+    max-width: 400px;
+}
+.project_3 {
+    max-width: 400px;
+}
+
+/* ---------------------------- Design ---------------------------------------- */
+
+.design_container {
+    margin: 150px 100px 150px 100px;
+}
+
+.design_1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.design_1_description {
+    max-width: 400px;
+}
+
+#cavalo_gif {
+    width: 500px;
+}
+
+.design_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.design_2_description {
+    max-width: 400px;
+}
+
+#monkey_fall_gif {
+    width: 500px;
+}
+
+/* ---------------------------- Extracurricular------------------------------- */
+
+.extracurriculars_container {
+    margin: 150px 100px 150px 100px;
+}
+
+.empresa_com_icone {
+    display: flex;
+    align-items: center;
+}
+
+.empresa_listas_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 50px 0px;
+}
+
+.lista_da_empresa {
+    list-style: "> ";
+}
+
+.troll_face {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
 }
 
 /* End Main ----------------------------------------------------------*/
