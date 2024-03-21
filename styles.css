@@ -1,79 +1,181 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: #1f1f1f;
-    color: #909090;
+html {
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
+    color: #909090;
+}
+
+body {  
+    background-color: #1F1F1F;
+    width: 100%;
+    min-height: 100vh;    
+}
+
+ul {
+    list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: #909090;
 }
 
-.icons{
+b {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+
+.icons {
     color: #909090;
     display: inline;
-    font-size: x-large;
-    margin-right: 3.2px;
+    font-size: 1.7rem;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-/* Header */
+/* ANIMATIONS ------------------------------------------------------ */
+
+#email:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+#linkedin:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+#github:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+#instagram:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* END ANIMATIONS ----------------------------------------------------- */
+
+/* Header ------------------------------------------------------*/
 
 header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    background-color: #1F1F1F;
+}
+
+.header_container {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#home_icon {
-    width: 200px;
+#home_icon_img {
+    width: 50px;
+    margin: 25px 0px 25px 0px;
 }
 
-.Navigation {
+.navigation_list_iten {
     display: inline;
-    color: #909090;
-    margin-left: 3.2px;
-    margin-right: 3.2px;
+    margin: 0px 10px 0px 10px;
+    font-size: 1.2rem;
+} 
+
+
+
+/* End Header -------------------------------------------------------*/
+
+/* Main --------------------------------------------------------------*/
+
+.about_container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 100px 50px 100px;
 }
 
-/* End Header */
+.main_title > h1 {
+    font-size: 3rem;
+    width: 50vw;
+}
 
-/* Main */
+.experience_container {
+    margin: 50px 100px 50px 100px;
+}
 
-#First_Project_image {
+.empresa_1_container {
+    margin: 40px 0px 40px 0px;
+    max-width: 600px;
+}
+
+.experience_list_1 {
+    list-style: "> ";
+}
+
+.empresa_2_container {
+    margin: 40px 0px 40px 0px;
+    max-width: 600px;
+}
+
+.experience_list_2 {
+    list-style: "> ";
+}
+
+.development_container {
+    margin: 50px 100px 50px 100px;
+}
+
+.development_things {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 100px 50px 100px;
+}
+
+#back_button {
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+}
+
+#foward_button {
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+}
+
+.development_image {
     width: 400px;
 }
 
-#My_projects{
-    color: white;
-}
+/* End Main ----------------------------------------------------------*/
 
-#Firt_project {
-    color: white;
-}
+/* Footer -----------------------------------------------------------------*/
 
-span {
-    color: white;
-    font-weight: 600;
-}
-
-/* End Main */
-
-/* Footer */
-
-.Form_footer {
-    display: flex;
-}
-
-fieldset {
-    width: 600px;
-    border: none;
+fieldset { 
+    border: white;
 }
 
 legend {
     color: white;
-    font-size: xx-large;
+    font-size: 2rem;
+    margin: 0px 0px 20px 0px;
 }
 
 input {
@@ -82,56 +184,90 @@ input {
     border-bottom: 1px solid white;
 }
 
-.name_email_message > label {
+.form_footer {
+    display: flex;
+
+    justify-content: space-evenly;
+    margin: 0px 100px 0px 100px;
+    padding: 10px 0px 10px 0px;
+}
+
+.form_input {
+    display: inline;
+    margin: 0px 10px 0px 10px;
+}
+
+.form_info {
+    min-width: 400px;
+}
+
+.name_email_container {
+    display: inline;
+    box-sizing: border-box;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.name_input_container {
+    display: inline-block;
+    width: 28%;
+}
+
+#name_title {
+    display: block;
+    font-size: 0.8rem;
+}
+
+#name_input {
+    display: block;
+    width: 100%;
+}
+
+.email_input_container {
+    display: inline-block;
+    width: 70%;
+    margin: 20px 0px 20px 0px;
+}
+
+#email_title {
+    display: block;
+    font-size: 0.8rem;
+}
+
+#email_input {
+    display: block;
+    width: 100%;
+}
+
+#message_title {
+    display: block;
+    font-size: 0.8rem;
+}
+
+#message_input {
+    display: block;
+    width: 100%;
+}
+
+.message_button_container {
     display: block;
 }
 
-.name_email {
-    display: inline-block;
-}
-
-.name_email_input {
-    width: 100%;
-}
-
-.name_input {
-    width: 49%;
-}
-.name_input > input{
-    width: 99%;
-    background: transparent;
-}
-
-.email_input {
-    width: 49%;
-}
-.email_input > input{
-    width: 99%;
-}
-
-.message_input {
-    width: 100%;
-}
-
-.message_input > input{
-    width: 99%;
-    
-}
-
-#Button {
+#button {
     width: 100%;
     background-color: #909090;
     border: none;
+    margin: 15px 0px 15px 0px;
+    padding: 8px 0px 8px 0px;
 }
 
 .form_text {
-    margin:15px 0px 0px 10px ;
-}
-
-.footer_icons {
     display: inline;
-    height: 65px;
-    width: 512px;
+    margin: 0px 10px 0px 10px;
 }
 
-/* End Footer */
+.year_developed {
+    margin: 50px 100px 0px 100px;
+}
+
+/* End Footer ---------------------------------------------------------*/
