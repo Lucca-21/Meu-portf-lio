@@ -106,19 +106,24 @@ header {
 .about_container {
     display: flex;
     justify-content: space-evenly;
-    margin: 150px 100px 50px 100px;
-    height: 70vh;
+    margin: 50px 50px 50px 50px;
+    padding-top: 100px;
 }
 
 .main_title > h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 50vw;
+}
+
+.about_text {
+    max-width: 600px;
 }
 
 /* ------------------- Experience --------------------- */
 
 .experience_container {
-    margin: 50px 100px 50px 100px;
+    margin: 50px 50px 50px 50px;
+    padding-top: 100px;
 }
 
 .empresas {
@@ -148,14 +153,15 @@ header {
 /* --------------------- Development ---------------------- */
 
 .development_container {
-    margin: 150px 100px 150px 100px;
+    margin: 50px 50px 50px 50px;
+    padding-top: 100px;
 }
 
 .development_things {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 50px 100px 50px 100px;
+    margin: 50px 50px 50px 50px;
 }
 
 #back_button {
@@ -171,7 +177,7 @@ header {
 }
 
 .development_image {
-    width: 400px;
+    width: 300px;
 }
 
 .project_container {
@@ -193,7 +199,8 @@ header {
 /* ---------------------------- Design ---------------------------------------- */
 
 .design_container {
-    margin: 150px 100px 150px 100px;
+    margin: 50px 50px 50px 50px;
+    padding-top: 100px;
 }
 
 .design_1 {
@@ -229,7 +236,8 @@ header {
 /* ---------------------------- Extracurricular------------------------------- */
 
 .extracurriculars_container {
-    margin: 150px 100px 150px 100px;
+    margin: 50px 50px 50px 50px;
+    padding-top: 100px;
 }
 
 .empresa_com_icone {
@@ -277,8 +285,8 @@ input {
     display: flex;
 
     justify-content: space-evenly;
-    margin: 0px 100px 0px 100px;
-    padding: 10px 0px 10px 0px;
+    margin: 0px 50px 0px 50px;
+    padding-top: 100px;
 }
 
 .form_input {
@@ -356,7 +364,7 @@ input {
 }
 
 .year_developed {
-    margin: 50px 100px 0px 100px;
+    margin: 50px 50px 0px 50px;
 }
 
 /* End Footer ---------------------------------------------------------*/
